@@ -5,11 +5,6 @@
 ### Multi-domain X-ray classification with Self-Spatial Synergy attention
 
 **A modular PyTorch implementation for studying convolutional feature fusion, global–spatial attention, and transfer learning across radiographic classification tasks.**
-
-[**Get started**](#getting-started) · [**Architecture**](#model-architecture) · [**Training**](#training-and-evaluation) · [**Research tools**](#research-experiments) · [**Paper**](#reference)
-
-[Reference paper](https://doi.org/10.1007/s11042-025-21105-5) · [Implementation notes](docs/DESIGN_DECISIONS.md) · [Paper-to-code mapping](docs/PAPER_MAPPING.md)
-
 </div>
 
 ---
@@ -25,8 +20,6 @@ Three single-label classification tasks are supported:
 | **Chest X-ray** | 3 | Normal · bacterial pneumonia · viral pneumonia |
 | **Bone fracture (multi-region)** | 2 | Fractured · not fractured |
 | **Shoulder X-ray** | 4 | A1 · C1 · D1 · Others |
-
-**Implementation status.** This is an *independent, paper-informed implementation*, not a verified copy of the authors' original training code. The source paper does not fully specify all layer dimensions, hyperparameters, or data-partition procedures. Those gaps are treated as explicit engineering choices in [`docs/DESIGN_DECISIONS.md`](docs/DESIGN_DECISIONS.md). No paper-level accuracy claim is presented as reproduced by this repository.
 
 ### Capabilities
 
