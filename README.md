@@ -1,15 +1,6 @@
 [CXRNet_README.md](https://github.com/user-attachments/files/34964873/CXRNet_README.md)
 <div align="center">
 
-# CXR-Net Research Kit
-
-**A modular, reproducibility-oriented PyTorch implementation of multi-domain X-ray classification with Self-Spatial Synergy (S3) attention.**
-
-`PyTorch` · `Medical Imaging` · `Multi-domain Learning` · `S3 Attention` · `Leakage-aware Evaluation`
-
-[Quick start](#quick-start) · [Architecture](#architecture) · [Datasets](#datasets-and-data-splitting) · [Training](#training-workflows) · [Evaluation](#evaluation-and-interpretability) · [Paper fidelity](#paper-fidelity-and-engineering-decisions)
-
-**[English documentation](README.md) | [راهنمای فارسی](README_FA.md)**
 
 </div>
 
