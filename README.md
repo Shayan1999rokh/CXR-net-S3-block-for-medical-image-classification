@@ -279,23 +279,3 @@ python -m pytest -q -m ""            # Entire test suite
 ```
 
 The supplied [`QA_REPORT.json`](QA_REPORT.json) documents 21 passing unit tests, one integration test, and CLI smoke checks against synthetic images when the package was assembled. These checks establish software execution, not medical validity. For publication-grade evaluation, use patient/site-independent data, repeat training across seeds, compare baselines on common partitions, and report class-level uncertainty.
-
-## Reference
-
-This project is based on:
-
-> Raeisi, Z., Rokhva, S., Roshanzamir, A., & Ahmadi Lashaki, R. (2025). **An accurate attention based method for multi-tasking X-ray classification.** *Multimedia Tools and Applications*. https://doi.org/10.1007/s11042-025-21105-5
-
-```bibtex
-@article{raeisi2025accurate,
-  title   = {An accurate attention based method for multi-tasking X-ray classification},
-  author  = {Raeisi, Zahra and Rokhva, Shayan and Roshanzamir, Amirsadegh and Ahmadi Lashaki, Reza},
-  journal = {Multimedia Tools and Applications},
-  year    = {2025},
-  doi     = {10.1007/s11042-025-21105-5}
-}
-```
-
-## License and use
-
-The independently written toolkit code is provided under the [MIT License](LICENSE). The article, published figures, datasets, and third-party resources retain their respective rights. This is a **research software project**, not a certified medical device or clinical decision-support system.
